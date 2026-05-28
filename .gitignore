@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/uploads/
+data/processed/
+data/vectors/
+*.log

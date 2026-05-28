@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admin Dashboard — SSC Telkom University Surabaya Chatbot">
+    <title>Admin Dashboard — SSC Chatbot</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Login Page -->
+    <div class="login-container" id="loginPage">
+        <div class="login-card">
+            <div class="login-icon">⚙️</div>
+            <h2>Admin Dashboard</h2>
+            <p>SSC Telkom University Surabaya — Chatbot Management</p>
+            <form onsubmit="handleLogin(event)">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-input" id="loginUsername" placeholder="Masukkan username" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-input" id="loginPassword" placeholder="Masukkan password" required>
+                </div>
+                <button type="submit" class="btn-primary" id="btnLogin">Masuk</button>
+            </form>
+            <div class="login-error" id="loginError"></div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard-container" id="dashboardPage">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <div class="header-left">
+                <div class="logo">🎓</div>
+                <h1>Admin Dashboard</h1>
+            </div>
+            <div class="header-right">
+                <a href="/" class="btn btn-accent" target="_blank">💬 Buka Chat</a>
+                <button class="btn-logout" onclick="handleLogout()">🚪 Logout</button>
+            </div>
+        </header>
+
+        <!-- Tabs -->
+        <nav class="tabs">
+            <button class="tab-btn active" onclick="switchTab('overview')">📊 Overview</button>
+            <button class="tab-btn" onclick="switchTab('datasets')">📄 Dataset</button>
+            <button class="tab-btn" onclick="switchTab('keywords')">🔑 FAQ Keywords</button>
+            <button class="tab-btn" onclick="switchTab('behavior')">⚙️ Pengaturan Bot</button>
+            <button class="tab-btn" onclick="switchTab('testchat')">💬 Test Chat</button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Overview Tab -->
+            <div class="tab-panel active" id="tab-overview">
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-icon purple">📄</div>
+                        <div class="stat-value" id="statDatasets">0</div>
+                        <div class="stat-label">Total Dataset</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon green">📦</div>
+                        <div class="stat-value" id="statChunks">0</div>
+                        <div class="stat-label">Total Chunks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon amber">🔑</div>
+                        <div class="stat-value" id="statKeywords">0</div>
+                        <div class="stat-label">FAQ Keywords</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon cyan">🤖</div>
+                        <div class="stat-value" id="statModel">—</div>
+                        <div class="stat-label">AI Model</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Datasets Tab -->
+            <div class="tab-panel" id="tab-datasets">
+                <!-- Upload Area -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">📤 Upload PDF Baru</span>
+                    </div>
+                    <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()">
+                        <div class="upload-icon">📄</div>
+                        <h3>Klik atau drag file PDF ke sini</h3>
+                        <p>Maks. 50MB per file · Hanya format PDF</p>
+                    </div>
+                    <input type="file" id="fileInput" accept=".pdf" style="display:none" onchange="handleFileUpload(this)">
+                    <div class="upload-progress" id="uploadProgress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-text" id="progressText">Mengupload...</div>
+                    </div>
+                </div>
+
+                <!-- Dataset List -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">📋 Daftar Dataset</span>
+                        <button class="btn btn-accent btn-sm" onclick="loadDatasets()">🔄 Refresh</button>
+                    </div>
+                    <div id="datasetList">
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada dataset. Upload PDF untuk memulai.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Keywords Tab -->
+            <div class="tab-panel" id="tab-keywords">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">➕ Tambah FAQ Keyword</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Keyword (huruf kecil)</label>
+                        <input type="text" class="form-input" id="faqKeyword" placeholder="contoh: jadwal uas">
+                    </div>
+                    <div class="form-group">
+                        <label>Response</label>
+                        <textarea class="form-textarea" id="faqResponse" placeholder="Jawaban yang akan diberikan bot..." rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-green" onclick="addKeyword()">💾 Simpan</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">📋 Daftar FAQ Keywords</span>
+                        <button class="btn btn-accent btn-sm" onclick="loadKeywords()">🔄 Refresh</button>
+                    </div>
+                    <div id="keywordList">
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada FAQ keyword.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Behavior Tab -->
+            <div class="tab-panel" id="tab-behavior">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">⚙️ Pengaturan Bot</span>
+                    </div>
+                    <div class="form-group">
+                        <label>System Instructions (Prompt Sistem)</label>
+                        <textarea class="form-textarea" id="behaviorInstructions" rows="8" placeholder="Instruksi untuk bot..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Fallback Response (Jawaban default jika tidak ada data)</label>
+                        <textarea class="form-textarea" id="behaviorFallback" rows="3" placeholder="Jawaban fallback..."></textarea>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                        <div class="form-group">
+                            <label>Maks Kalimat</label>
+                            <input type="number" class="form-input" id="behaviorMaxSentences" min="1" max="20" value="5">
+                        </div>
+                        <div class="form-group">
+                            <label>Bahasa</label>
+                            <input type="text" class="form-input" id="behaviorLanguage" value="id">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Gaya Jawaban</label>
+                        <input type="text" class="form-input" id="behaviorReplyStyle" placeholder="contoh: ramah, profesional">
+                    </div>
+                    <button class="btn btn-green" onclick="saveBehavior()">💾 Simpan Pengaturan</button>
+                </div>
+            </div>
+
+            <!-- Test Chat Tab -->
+            <div class="tab-panel" id="tab-testchat">
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">💬 Test Chat</span>
+                        <button class="btn btn-accent btn-sm" onclick="clearTestChat()">🗑️ Bersihkan</button>
+                    </div>
+                    <div class="test-chat-widget">
+                        <div class="test-chat-messages" id="testChatMessages">
+                            <div class="test-msg bot">Halo! Saya siap menerima pertanyaan untuk testing. 🤖</div>
+                        </div>
+                        <div class="test-chat-input">
+                            <input type="text" id="testChatInput" placeholder="Ketik pesan test..." onkeydown="if(event.key==='Enter')sendTestChat()">
+                            <button onclick="sendTestChat()">Kirim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Chunks Preview Modal -->
+    <div class="modal-overlay" id="chunksModal">
+        <div class="modal">
+            <h3 id="chunksModalTitle">Preview Chunks</h3>
+            <div id="chunksModalContent"></div>
+            <div class="modal-actions">
+                <button class="btn btn-accent" onclick="closeModal('chunksModal')">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

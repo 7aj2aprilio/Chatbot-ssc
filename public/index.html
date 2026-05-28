@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chatbot SSC Telkom University Surabaya - Asisten akademik berbasis AI untuk mahasiswa">
+    <title>SSC Telkom University Surabaya — Asisten Akademik AI</title>
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="header-left">
+                <div class="bot-avatar">🎓</div>
+                <div class="header-info">
+                    <h1>SSC Telkom University Surabaya</h1>
+                    <p><span class="status-dot"></span> Asisten Akademik AI</p>
+                </div>
+            </div>
+            <button class="btn-new-chat" id="btnNewChat" onclick="newChat()">
+                🔄 <span>Percakapan Baru</span>
+            </button>
+        </header>
+
+        <!-- Messages -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Welcome Screen -->
+            <div class="welcome-screen" id="welcomeScreen">
+                <div class="welcome-icon">🤖</div>
+                <h2>Halo, Mahasiswa! 👋</h2>
+                <p>Saya adalah asisten virtual SSC Telkom University Surabaya. Tanyakan informasi akademik yang Anda butuhkan.</p>
+                <div class="suggestion-chips">
+                    <button class="suggestion-chip" onclick="sendSuggestion('Apa saja layanan SSC?')">📋 Layanan SSC</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Bagaimana jadwal akademik semester ini?')">📅 Jadwal Akademik</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Bagaimana prosedur pengajuan cuti?')">📝 Prosedur Cuti</button>
+                    <button class="suggestion-chip" onclick="sendSuggestion('Informasi beasiswa apa saja yang tersedia?')">🎓 Info Beasiswa</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Typing Indicator -->
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <textarea
+                    class="chat-input"
+                    id="chatInput"
+                    placeholder="Ketik pertanyaan Anda..."
+                    rows="1"
+                    onkeydown="handleKeyDown(event)"
+                    oninput="autoResize(this)"
+                ></textarea>
+                <button class="btn-send" id="btnSend" onclick="sendMessage()">➤</button>
+            </div>
+            <div class="powered-by">
+                Powered by <a href="#">Gemini AI</a> · SSC Telkom University Surabaya
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chat.js"></script>
+</body>
+</html>

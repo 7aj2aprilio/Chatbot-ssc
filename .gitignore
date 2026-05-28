@@ -4,3 +4,4 @@ data/uploads/
 data/processed/
 data/vectors/
 *.log
+implementation_plan.md

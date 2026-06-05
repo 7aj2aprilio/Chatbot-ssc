@@ -110,10 +110,10 @@ function requireAuth(req, res, next) {
 }
 
 // ─── Build Index saat startup ───────────────────────────────────
-function buildRAGIndex() {
+async function buildRAGIndex() {
     const allDocuments = datasetManager.getAllDocuments();
     if (allDocuments.length > 0) {
-        ragEngine.buildIndex(allDocuments);
+        await ragEngine.buildIndex(allDocuments, gemini);
         ragEngine.saveIndex();
         console.log(`RAG Index dibangun: ${allDocuments.length} dokumen`);
     } else {
@@ -160,12 +160,13 @@ app.post('/api/chat', async (req, res) => {
         }
 
         // Pastikan index sudah dibangun
-        if (!ragEngine.index || ragEngine.index.vectors.length === 0) {
-            ragEngine.buildIndex(allDocuments);
+        if (!ragEngine.index || !ragEngine.index.vectors || ragEngine.index.vectors.length === 0) {
+            await ragEngine.buildIndex(allDocuments, gemini);
+            ragEngine.saveIndex();
         }
 
         const topK = Number(process.env.RAG_TOP_K || 5);
-        const contextItems = ragEngine.retrieveContext(userMessage, allDocuments, topK);
+        const contextItems = await ragEngine.retrieveContext(userMessage, allDocuments, topK, gemini);
 
         console.log(`RAG: "${userMessage.substring(0, 50)}..." → ${contextItems.length} konteks ditemukan`);
 
@@ -182,31 +183,64 @@ app.post('/api/chat', async (req, res) => {
             });
         }
 
-        // Build sources info
-        const sources = contextItems.map(item => ({
-            filename: item.filename || '',
-            page: item.page || 0,
-            chunk_preview: item.text.substring(0, 150) + (item.text.length > 150 ? '...' : ''),
-            download_url: item.filename ? `/api/files/${encodeURIComponent(item.filename)}` : null,
-            score: Math.round(item.score * 100) / 100
-        }));
+        // Cek apakah AI benar-benar bisa menjawab atau fallback
+        const fallbackText = (behavior?.fallback_response || '').toLowerCase();
+        const responseLower = aiResponse.toLowerCase();
+        const cannotAnswerIndicators = [
+            'belum tersedia',
+            'tidak tersedia',
+            'tidak ditemukan',
+            'tidak memiliki informasi',
+            'tidak ada informasi',
+            'tidak dapat menjawab',
+            'tidak bisa menjawab',
+            'hubungi ssc',
+            'hubungi langsung',
+            'silakan hubungi',
+            'mohon maaf',
+            'maaf, saya tidak',
+            'di luar konteks',
+            'tidak terdapat dalam',
+            'belum memiliki data',
+            'tidak ada dalam konteks',
+            'tidak ada data'
+        ];
 
-        // Deduplicate sources by filename
-        const uniqueSources = [];
-        const seenFiles = new Set();
-        for (const src of sources) {
-            if (src.filename && !seenFiles.has(src.filename)) {
-                seenFiles.add(src.filename);
-                uniqueSources.push(src);
-            } else if (!src.filename) {
-                uniqueSources.push(src);
+        const isFallbackResponse = (fallbackText && responseLower.includes(fallbackText)) ||
+            cannotAnswerIndicators.some(indicator => responseLower.includes(indicator));
+
+        // Build sources info hanya jika AI benar-benar bisa menjawab
+        let finalSources = [];
+        let finalSourceType = 'rag';
+
+        if (!isFallbackResponse) {
+            const sources = contextItems.map(item => ({
+                filename: item.filename || '',
+                page: item.page || 0,
+                chunk_preview: item.text.substring(0, 150) + (item.text.length > 150 ? '...' : ''),
+                download_url: item.filename ? `/api/files/${encodeURIComponent(item.filename)}` : null,
+                score: Math.round(item.score * 100) / 100
+            }));
+
+            // Deduplicate sources by filename
+            const seenFiles = new Set();
+            for (const src of sources) {
+                if (src.filename && !seenFiles.has(src.filename)) {
+                    seenFiles.add(src.filename);
+                    finalSources.push(src);
+                } else if (!src.filename) {
+                    finalSources.push(src);
+                }
             }
+        } else {
+            finalSourceType = 'fallback';
+            console.log(`Fallback terdeteksi, sumber tidak ditampilkan untuk: "${userMessage.substring(0, 50)}..."`);
         }
 
         res.json({
             reply: aiResponse,
-            sources: uniqueSources,
-            source_type: 'rag'
+            sources: finalSources,
+            source_type: finalSourceType
         });
 
     } catch (error) {
@@ -285,7 +319,7 @@ app.post('/api/datasets/upload', requireAuth, upload.single('pdf'), async (req, 
         
         if (result.success) {
             // Rebuild RAG index
-            buildRAGIndex();
+            buildRAGIndex().catch(err => console.error('Error background build index:', err));
         }
 
         res.json(result);
@@ -298,7 +332,7 @@ app.post('/api/datasets/upload', requireAuth, upload.single('pdf'), async (req, 
 app.delete('/api/datasets/:id', requireAuth, (req, res) => {
     const result = datasetManager.deleteDataset(req.params.id);
     if (result.success) {
-        buildRAGIndex();
+        buildRAGIndex().catch(err => console.error('Error background build index:', err));
     }
     res.json(result);
 });
@@ -315,7 +349,7 @@ app.get('/api/datasets/:id/documents', requireAuth, (req, res) => {
 app.post('/api/datasets/:id/reprocess', requireAuth, async (req, res) => {
     const result = await datasetManager.reprocessDataset(req.params.id);
     if (result.success) {
-        buildRAGIndex();
+        buildRAGIndex().catch(err => console.error('Error background build index:', err));
     }
     res.json(result);
 });
@@ -410,5 +444,5 @@ app.listen(PORT, () => {
     console.log('');
 
     // Build RAG index saat startup
-    buildRAGIndex();
+    buildRAGIndex().catch(err => console.error('Startup build index error:', err));
 });

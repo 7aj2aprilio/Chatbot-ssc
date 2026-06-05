@@ -1,0 +1,528 @@
+{
+  "id": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0",
+  "name": "Buku-Pedoman-Kerja-Praktik--UPPS-TUS----versi-1.0.pdf",
+  "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+  "uploadedAt": "2026-06-05T08:26:06.588Z",
+  "numPages": 28,
+  "totalChunks": 73,
+  "totalChars": 40905,
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "creator": ""
+  },
+  "documents": [
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-0",
+      "text": "KATA PENGANTAR\n\nPuji syukur kami panjatkan kepada Tuhan Yang Maha Esa atas limpahan rahmat dan karunia-Nya\nsehingga panduan pelaksanaan Kerja Praktik dapat disusun. Panduan ini disusun sebagai pedoman bagi\nMahasiswa Universitas Telkom Kampus Surabaya dalam melaksanakan Kerja Praktik secara efektif,\nterstruktur, dan sesuai dengan standar yang berlaku di dunia kerja. Kerja Praktik merupakan salah satu\nbagian penting dalam kurikulum pendidikan tinggi yang bertujuan untuk memberikan pengalaman\nlangsung kepada Mahasiswa dalam dunia industri, bisnis, maupun organisasi lainnya.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 1,
+      "chunkIndex": 0
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-1",
+      "text": "erikan pengalaman\nlangsung kepada Mahasiswa dalam dunia industri, bisnis, maupun organisasi lainnya.\n\nDengan Kerja Praktik, Mahasiswa diharapkan mampu mengembangkan kemampuan akademis\ndan keterampilan praktis yang dibutuhkan di lapangan, memperluas wawasan profesional, serta\nmenjalin koneksi dengan para praktisi di bidang terkait. Panduan ini berisi ketentuan, prosedur, dan\ntata cara pelaksanaan Kerja Praktik mulai dari persiapan, pelaksanaan, hingga penyusunan laporan\nakhir. Panduan ini diharapkan dapat memudahkan Mahasiswa dalam melaksanakan Kerja Praktik,\nmemaksimalkan pengalaman belajar, serta meningkatkan kompetensi dan profesionalisme sebagai\ncalon lulusan yang siap bersaing di dunia kerja. Ucapan terima kasih disampaikan kepada pihak-pihak\nyang telah berkontribusi dalam penyusunan panduan ini.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 1,
+      "chunkIndex": 1
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-2",
+      "text": "n terima kasih disampaikan kepada pihak-pihak\nyang telah berkontribusi dalam penyusunan panduan ini.\n\nPanduan ini memiliki keterbatasan, sehingga masukan dan saran dari berbagai pihak sangat\ndiharapkan untuk penyempurnaan di masa mendatang. Semoga dapat bermanfaat bagi Mahasiswa\ndalam meraih kesuksesan dalam pelaksanaan Kerja Praktik dan berkontribusi untuk mencapai visi dan\nmisi Universitas Telkom Kampus Surabaya dalam mencetak lulusan yang unggul dan kompeten.\n\nSurabaya, Oktober 2024\n\nTim Penyusun\n\nDAFTAR ISI",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 2,
+      "chunkIndex": 2
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-3",
+      "text": "a dalam mencetak lulusan yang unggul dan kompeten.\n\nSurabaya, Oktober 2024\n\nTim Penyusun\n\nDAFTAR ISI\n\nLEMBAR PENGESAHAN .................................................................................................................. 2\nKATA PENGANTAR .......................................................................................................................... 3\nDAFTAR ISI ......................................................................................................................................... 4\nPENDAHULUAN ................................................................................................................................. 6\n1. Latar Belakang ............................................................................................................................. 6\n2. Tujuan .......................................................................................................................................... 6\n3. Kompetensi .................................................................................................................................. 6\n4. Ruang Lingkup ............................................................................................................................ 7\nELEMEN YANG TERLIBAT ............................................................................................................ 8\n1. Tim Kelola Kerja Praktik ............................................................................................................ 8\n2. Syarat Mahasiswa Peserta Kerja Praktik ..................................................................................... 9\nPELAKSANAAN KERJA PRAKTIK.............................................................................................. 11\n1. Prosedur Pengajuan Kerja Praktik ............................................................................................. 11\na. Pencarian Instansi dan Konsultasi dengan Dosen Pembimbing Akademik........................... 12\nb. Penyusunan Proposal ............................................................................................................. 12\nc. Pengajuan Permohonan Kerja Praktik ................................................................................... 12\nd. Pengajuan Surat Pengantar Kerja Praktik melalui TOSS ...................................................... 12\ne. Pengajuan Surat Pengantar dan Proposal ke Instansi ............................................................ 13\nf. Penerimaan dari Instansi ........................................................................................................ 13\n2. Pelaksanaan Kerja Praktik ......................................................................................................... 13\n3. Pelaporan Kerja Praktik ............................................................................................................. 14\n4. Presentasi ................................................................................................................................... 15\n5. Pengumpulan Laporan Akhir ..................................................................................................... 16\n6. Pengumpulan Nilai dan Berita Acara oleh Pembimbing Akademik ......................................... 16\n7. Penalti Nilai ............................................................................................................................... 16\nLampiran 1 .......................................................................................................................................... 17\nLampiran 2 .......................................................................................................................................... 18\nLampiran 3 .......................................................................................................................................... 19\nLampiran 4 .......................................................................................................................................... 20\nLampiran 5 .......................................................................................................................................... 21\nLampiran 6 .......................................................................................................................................... 22\nLampiran 7 .......................................................................................................................................... 23\nLampiran 8 .......................................................................................................................................... 24\nLampiran 9 .......................................................................................................................................... 25",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 5,
+      "chunkIndex": 3
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-4",
+      "text": "................................................................................................. 25\n\nLampiran 10 ........................................................................................................................................ 26\nLampiran 11 ........................................................................................................................................ 27\nLampiran 12 ........................................................................................................................................ 28\n\nPENDAHULUAN",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 5,
+      "chunkIndex": 4
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-5",
+      "text": ".................................................................................... 28\n\nPENDAHULUAN\n\n1. Latar Belakang\nKerja Praktik (KP) adalah mata kuliah wajib Universitas Telkom yang bertujuan untuk\nmenghubungkan pengetahuan teoritis Mahasiswa dengan pengalaman praktik di dunia kerja.\nBerdasarkan Peraturan Universitas Telkom PU.022/AKD01/AKD-BPA/2024 tentang Pedoman\nAkademik, Kerja Praktik wajib dilaksanakan oleh seluruh Mahasiswa di perusahaan/instansi yang\nrelevan dengan Program Studi.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 6,
+      "chunkIndex": 5
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-6",
+      "text": "wajib dilaksanakan oleh seluruh Mahasiswa di perusahaan/instansi yang\nrelevan dengan Program Studi.\n\nPelaksanaan Kerja Praktik memberi kesempatan kepada Mahasiswa untuk dapat\nmengimplementasikan keterampilan yang diperoleh selama perkuliahan dan memberikan kontribusi\nlangsung melalui berbagai bentuk, seperti analisis masalah, rekomendasi solusi, pembuatan produk,\natau perangkat lunak. Selain keterampilan teknis (hardskill), Kerja Praktik juga mendorong\npengembangan keterampilan nonteknis (softskill) yang sangat penting dalam dunia kerja, seperti\nkomunikasi, kerjasama tim, problem-solving, dan kepemimpinan.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 6,
+      "chunkIndex": 6
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-7",
+      "text": "gat penting dalam dunia kerja, seperti\nkomunikasi, kerjasama tim, problem-solving, dan kepemimpinan.\n\nBuku pedoman ini disusun untuk memberikan panduan lengkap terkait pelaksanaan Kerja\nPraktik, mulai dari persyaratan hingga pelaporan. Dengan adanya pedoman ini, diharapkan Mahasiswa\ndapat melaksanakan Kerja Praktik secara terstruktur dan mencapai hasil yang diinginkan, baik dalam\npengembangan kompetensi pribadi maupun kontribusi nyata terhadap mitra industri. Melalui Kerja\nPraktik, Mahasiswa diharapkan dapat memahami keterkaitan antara teori dan praktik, serta\nmempersiapkan diri untuk memasuki dunia profesional dengan pengalaman yang relevan dan\nkemampuan yang lebih baik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 6,
+      "chunkIndex": 7
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-8",
+      "text": "diri untuk memasuki dunia profesional dengan pengalaman yang relevan dan\nkemampuan yang lebih baik.\n\n2. Tujuan\nTujuan dari kegiatan Kerja Praktik adalah sebagai berikut:\n• Mahasiswa memiliki pengalaman praktik sesuai masing-masing Program Studi yang dapat\nmenunjang keahliannya.\n• Mahasiswa mempunyai gambaran nyata mengenai lingkungan kerja, seperti memahami\nstruktur organisasi tempat Kerja Praktik, mengetahui unit/divisi yang terdapat pada\nperusahaan/instansi tersebut.\n• Melakukan kegiatan sosial dan kemasyarakatan agar mengetahui persoalan sosial di lingkungan\nmasyarakat secara nyata.\n• Mahasiswa dapat memberikan manfaat bagi instansi tempat melaksanakan Kerja Praktik.\n• Menjalin hubungan baik dengan perusahaan/instansi tempat Kerja Praktik agar dapat dilakukan\ninisiasi sebagai objek Tugas Akhir.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 7,
+      "chunkIndex": 8
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-9",
+      "text": "an perusahaan/instansi tempat Kerja Praktik agar dapat dilakukan\ninisiasi sebagai objek Tugas Akhir.\n\n3. Kompetensi\nKompetensi yang diharapkan dari Mahasiswa setelah melaksanakan Kerja Praktik sebagai\nberikut:\n• Mahasiswa memahami jenis pekerjaan dan permasalahan di tempat Kerja Praktik.\n• Mahasiswa memahami metode penyelesaian terhadap permasalahan di tempat Kerja Praktik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 7,
+      "chunkIndex": 9
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-10",
+      "text": "rja Praktik.\n• Mahasiswa memahami metode penyelesaian terhadap permasalahan di tempat Kerja Praktik.\n\n• Mahasiswa mampu mengambil pelajaran dari permasalahan tersebut dan memberikan solusi\ndengan cara membandingkan dan menghubungkan dengan teori yang telah dipelajari di bangku\nperkuliahan dan menyusunnya sebagai laporan kegiatan.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 7,
+      "chunkIndex": 10
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-11",
+      "text": "n dengan teori yang telah dipelajari di bangku\nperkuliahan dan menyusunnya sebagai laporan kegiatan.\n\n4. Ruang Lingkup\nRuang lingkup aktivitas/kegiatan/pekerjaan yang dilaksanakan oleh Mahasiswa dalam Kerja\nPraktik disesuaikan dengan keilmuan yang ada pada masing-masing Program Studi di Universitas\nTelkom Kampus Surabaya. Mahasiswa mengimplementasikan pengetahuan dan keterampilan yang\ntelah diperoleh dari kegiatan perkuliahan untuk berkontribusi di berbagai perusahaan/instansi dengan\nbidang kerja yang sesuai rumpun keilmuan Program Studi. Pada prinsipnya ruang lingkup pekerjaan\nyang dilaksanakan pada saat Kerja Praktik harus relevan dengan kompetensi yang diharapkan dari\nsetiap Program Studi. Ruang lingkup Kerja Praktik dapat berupa usulan dari Mahasiswa atau berasal\ndari perusahaan/instansi. Lingkup pekerjaan bukan hanya mencakup studi, namun harus memberikan\nsuatu hasil kerja nyata.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 8,
+      "chunkIndex": 11
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-12",
+      "text": "tansi. Lingkup pekerjaan bukan hanya mencakup studi, namun harus memberikan\nsuatu hasil kerja nyata.\n\nTerdapat dua jenis aktivitas yang menjadi ruang lingkup Kerja Praktik sebagai berikut:\na. Aktivitas berbatas waktu\nPada aktivitas jenis ini, Mahasiswa bekerja fulltime pada hari kerja dan terlibat dalam kegiatan\nkeseharian perusahaan/instansi sesuai dengan tugas yang diberikan selama pelaksanaan Kerja\nPraktik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 8,
+      "chunkIndex": 12
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-13",
+      "text": "keseharian perusahaan/instansi sesuai dengan tugas yang diberikan selama pelaksanaan Kerja\nPraktik.\n\nb. Aktivitas berbatas proyek\nPada aktivitas jenis ini, Mahasiswa diberikan suatu tugas (proyek) tertentu dan harus\ndiselesaikan tanpa kewajiban untuk masuk setiap hari kerja di perusahaan/instansi. Mahasiswa\ndapat mengatur pertemuan dengan perusahaan/instansi secara periodik untuk keperluan sesuai\ndengan aturan dan kebijakan dari perusahaan/instansi. Jika perusahaan/instansi tidak\nmemberikan tugas tertentu, maka Mahasiswa harus mengajukan jenis aktivitas yang akan\ndilakukan. Penentuan jenis tugas/proyek/kegiatan sebisa mungkin saling menguntungkan bagi\nMahasiswa maupun perusahaan/instansi Kerja Praktik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 8,
+      "chunkIndex": 13
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-14",
+      "text": "egiatan sebisa mungkin saling menguntungkan bagi\nMahasiswa maupun perusahaan/instansi Kerja Praktik.\n\nELEMEN YANG TERLIBAT\n\n1. Tim Kelola Kerja Praktik\na. Komite Kerja Praktik\nKomite Kerja Praktik adalah Dosen yang ditugaskan oleh Ketua Program Studi sebagai Komite\nKerja Praktik. Penunjukan/pengusulan sebagai Komite Kerja Praktik dilakukan pada awal semester\nsebelum pelaksanaan Kerja Praktik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 8,
+      "chunkIndex": 14
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-15",
+      "text": "gusulan sebagai Komite Kerja Praktik dilakukan pada awal semester\nsebelum pelaksanaan Kerja Praktik.\n\nTugas dan wewenang Komite Kerja Praktik adalah sebagai berikut:\n• Membantu Program Studi terhadap pelaksanaan Kerja Praktik secara keseluruhan.\n• Melakukan kegiatan perencanaan dan pelaksanaan Kerja Praktik, termasuk sosialisasi\nKerja Praktik kepada Dosen dan Mahasiswa sesuai dengan jadwal tentative yang telah\nditentukan.\n• Mengelola pemberkasan Kerja Praktik.\n• Mengarsipkan dokumen berita acara presentasi laporan akhir Kerja Praktik serta formulir\npenilaian Dosen Pembimbing dan Dosen Penguji.\n• Memasukkan nilai Mata Kuliah Kerja Praktik ke dalam iGadis sesuai dengan jadwal\ntentative pelaksanaan yang telah ditetapkan.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 9,
+      "chunkIndex": 15
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-16",
+      "text": "liah Kerja Praktik ke dalam iGadis sesuai dengan jadwal\ntentative pelaksanaan yang telah ditetapkan.\n\nb. Dosen Pembimbing Akademik\nDosen Pembimbing Akademik adalah Dosen Wali dari Ketua Kelompok Kerja Praktik atau\nDosen yang ditugaskan oleh Ketua Program Studi sebagai Pembimbing Akademik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 9,
+      "chunkIndex": 16
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-17",
+      "text": "ompok Kerja Praktik atau\nDosen yang ditugaskan oleh Ketua Program Studi sebagai Pembimbing Akademik.\n\nTugas dan wewenang pembimbing akademik adalah sebagai berikut:\n• Mengarahkan Mahasiswa sebelum melakukan penyusunan proposal Kerja Praktik (jenis\npekerjaan dan ruang lingkup).\n• Membimbing Mahasiswa dalam mengimplementasikan keilmuan sesuai masing-masing\nProgram Studi dalam menyelesaikan masalah atau pekerjaan di tempat Kerja Praktik.\n• Membimbing Mahasiswa dalam pembuatan laporan Kerja Praktik serta memberikan\npengesahan terhadap laporan akhir Kerja Praktik yang dibuat oleh Mahasiswa.\n• Memberikan penilaian terhadap hasil Kerja Praktik sesuai dengan aturan yang telah\nditetapkan.\n• Melengkapi dokumen berita acara presentasi laporan akhir Kerja Praktik serta formulir\npenilaian Dosen Pembimbing dan Dosen Penguji, dengan mengikuti template yang berlaku\npada setiap Program Studi.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 10,
+      "chunkIndex": 17
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-18",
+      "text": "osen Pembimbing dan Dosen Penguji, dengan mengikuti template yang berlaku\npada setiap Program Studi.\n\nc. Pembimbing Lapangan\nPembimbing Lapangan adalah Pegawai yang ditugaskan oleh perusahaan/instansi sebagai\nPembimbing Lapangan. Tugas dan wewenang pembimbing lapangan adalah sebagai berikut:\n• Memberikan arahan pekerjaan yang diberikan kepada Mahasiswa.\n• Memberikan persetujuan terhadap proposal Kerja Praktik yang berisi penugasan kepada\nMahasiswa.\n• Mengawasi perkembangan pekerjaan yang diberikan kepada Mahasiswa.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 10,
+      "chunkIndex": 18
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-19",
+      "text": "risi penugasan kepada\nMahasiswa.\n• Mengawasi perkembangan pekerjaan yang diberikan kepada Mahasiswa.\n\n• Memberikan persetujuan terhadap laporan akhir Kerja Praktik yang dibuat oleh Mahasiswa.\n• Memberikan penilaian terhadap hasil Kerja Praktik sesuai dengan aturan.\n\n2. Syarat Mahasiswa Peserta Kerja Praktik\na. Kerja Praktik dapat dilaksanakan secara individu atau kelompok\nSetiap kelompok terdiri dari 1-3 Mahasiswa, dimana salah satunya berperan sebagai ketua\nkelompok.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 10,
+      "chunkIndex": 19
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-20",
+      "text": "ok\nSetiap kelompok terdiri dari 1-3 Mahasiswa, dimana salah satunya berperan sebagai ketua\nkelompok.\n\nb. Minimal kelulusan SKS pada semester pengajuan Kerja Praktik\nPeserta adalah Mahasiswa aktif yang telah mengambil mata kuliah minimal 90 SKS dengan\nIPK ≥ 2,00. Bagian ini ditunjukkan dengan melampirkan capture dari Rencana Studi & Nilai.\nBerikut tutorial untuk mengakses Menu Rencana Studi & Nilai:\n• Login I-Gracias (Mahasiswa)\n• Membuka menu utama\n• Memilih Menu Perwalian\n\nGambar 1. Tampilan Pilih Menu Perwalian\n\n• Memilih Data Akademik pada bar menu bagian atas memilih Rencana Studi & Nilai",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 10,
+      "chunkIndex": 20
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-21",
+      "text": "ilih Menu Perwalian\n\n• Memilih Data Akademik pada bar menu bagian atas memilih Rencana Studi & Nilai\n\nGambar 2. Tampilan Pilih Rencana Studi & Nilai\n\n• Pada Menu “Rencana Studi & Nilai” akan muncul tampilan seperti pada Gambar 3 dan\nGambar 4. Persyaratan minimal SKS ditunjukkan dengan penjumlahan SKS pada Daftar\nMata Kuliah Lulus (Gambar 3) dan SKS pada Mata Kuliah Belum Lulus (Gambar 4).\n\nGambar 3. Contoh Tampilan Daftar Mata Kuliah Lulus\n\nGambar 4. Contoh Tampilan Mata Kuliah Belum Lulus",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 11,
+      "chunkIndex": 21
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-22",
+      "text": "ambar 3. Contoh Tampilan Daftar Mata Kuliah Lulus\n\nGambar 4. Contoh Tampilan Mata Kuliah Belum Lulus\n\nc. Durasi Pelaksanaan Kerja Praktik\nKerja Praktik dilaksanakan selama minimal 6 minggu, dengan memperhatikan beban SKS\npada masing-masing Program Studi.\n\nd. Periode Waktu Kerja Praktik\nKerja Praktik dapat dilaksanakan dalam minggu perkuliahan atau masa libur semester\nakademik (genap ke ganjil, atau sebaliknya).",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 11,
+      "chunkIndex": 22
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-23",
+      "text": "nakan dalam minggu perkuliahan atau masa libur semester\nakademik (genap ke ganjil, atau sebaliknya).\n\ne. Registrasi pada Kartu Rencana Studi (KRS)\nTerdapat dua jenis registrasi, yaitu:\n• Mahasiswa peserta Kerja Praktik diwajibkan mengambil SKS Mata Kuliah Kerja Praktik\npada masa registrasi semester sebelum pelaksanaan Kerja Praktik, atau\n• Mahasiswa peserta Kerja Praktik diwajibkan mengambil SKS Mata Kuliah Kerja Praktik\nsetelah pelaksanaan Kerja Praktik.\n\nPELAKSANAAN KERJA PRAKTIK\n\nGambar 5. Alur Prosedur Pelaksanaan Kerja Praktik",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 11,
+      "chunkIndex": 23
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-24",
+      "text": "ksanaan Kerja Praktik.\n\nPELAKSANAAN KERJA PRAKTIK\n\nGambar 5. Alur Prosedur Pelaksanaan Kerja Praktik\n\nPelaksanaan Kerja Praktik terdiri dari beberapa tahap dimana setiap peserta wajib melaksanakan sesuai\ndengan jadwal yang telah ditentukan. Adapun tahapan pelaksanaan Kerja Praktik sebagai berikut:\n\n1. Pengajuan Kerja Praktik\n2. Pelaksanaan Kerja Praktik\n3. Pembuatan Laporan\n4. Presentasi Hasil Kerja Praktik\n\n1. Prosedur Pengajuan Kerja Praktik\n\nGambar 6. Alur Prosedur Pengajuan Kerja Praktik",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 12,
+      "chunkIndex": 24
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-25",
+      "text": "Kerja Praktik\n\n1. Prosedur Pengajuan Kerja Praktik\n\nGambar 6. Alur Prosedur Pengajuan Kerja Praktik\n\na. Pencarian Instansi dan Konsultasi dengan Dosen Pembimbing Akademik\nMahasiswa mencari Instansi/Perusahaan tujuan pelaksanaan Kerja Praktik. Mahasiswa\nmelakukan diskusi dengan Dosen Pembimbing Akademik terkait Kerja Praktik yang akan\ndiikuti.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 12,
+      "chunkIndex": 25
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-26",
+      "text": "ahasiswa\nmelakukan diskusi dengan Dosen Pembimbing Akademik terkait Kerja Praktik yang akan\ndiikuti.\n\nb. Penyusunan Proposal\nMahasiswa wajib menyusun proposal Kerja Praktik. Daftar susunan proposal dapat dilihat\npada Tabel 1. Proposal yang sudah selesai disusun wajib ditandatangan (basah) oleh Dosen\nPembimbing Akademik dan Kepala Program Studi. Proposal Kerja Praktik hanya dapat\ndiajukan sekali dalam waktu yang bersamaan.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 12,
+      "chunkIndex": 26
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-27",
+      "text": "Kepala Program Studi. Proposal Kerja Praktik hanya dapat\ndiajukan sekali dalam waktu yang bersamaan.\n\nPengajuan berikutnya dapat dilakukan jika Mahasiswa telah mendapatkan surat penolakan\ndari Perusahaan/Instansi atau tidak mendapat balasan dari perusahaan minimal 3 minggu\nterhitung sejak surat pengantar Kerja Praktik diterbitkan melalui TOSS. Saat mengajukan\nproposal, Mahasiswa harus menyertakan Rencana Studi & Nilai.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 12,
+      "chunkIndex": 27
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-28",
+      "text": "terbitkan melalui TOSS. Saat mengajukan\nproposal, Mahasiswa harus menyertakan Rencana Studi & Nilai.\n\nTabel 1 Daftar Susunan Kerja Praktik\nBagian Awal Halaman Judul (terlampir).\nLembar Persetujuan (terlampir)\nDaftar Isi\nDaftar Tabel (opsional)\nDaftar Gambar (opsional)\nAbstrak\nBab 1 Pendahuluan 1.1 Latar Belakang\n1.2 Tujuan\n1.3 Manfaat\nBab 2 Metodologi 2.1 Tinjauan Teori\n2.2 Rencana Kegiatan\n2.3 Waktu Pelaksanaan Kegiatan\nKerja Praktik\nBab 3 Penutup Penutup\nBagian Akhir Daftar Pustaka\nLampiran",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 12,
+      "chunkIndex": 28
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-29",
+      "text": "Waktu Pelaksanaan Kegiatan\nKerja Praktik\nBab 3 Penutup Penutup\nBagian Akhir Daftar Pustaka\nLampiran\n\nc. Pengajuan Permohonan Kerja Praktik\nMahasiswa harus mengisi Formulir Pengajuan Permohonan Kerja Praktik pada tautan\nlinktr.ee/laa.upps.sby dengan melampirkan proposal Kerja Praktik dan Rencana Studi & Nilai.\nMahasiswa hanya dapat melakukan pengajuan sekali dan diperbolehkan untuk mengajukan\nkembali jika sudah mendapatkan surat penolakan dari perusahaan/instansi atau tidak menerima\nbalasan minimal 3 minggu sejak diterbitkannya surat pengantar dari TOSS.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 13,
+      "chunkIndex": 29
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-30",
+      "text": "nstansi atau tidak menerima\nbalasan minimal 3 minggu sejak diterbitkannya surat pengantar dari TOSS.\n\nd. Pengajuan Surat Pengantar Kerja Praktik melalui TOSS\nMahasiswa mengajukan surat pengantar Kerja Praktik melalui TOSS pada link berikut:\ntoss.telkomuniversity.ac.id. Mahasiswa mengunduh surat pengantar Kerja Praktik pada\n\nTOSS. Tutorial pengajuan dapat dilihat pada dokumen Tutorial Pengajuan Surat Pengantar KP\nke TOSS pada tautan linktr.ee/laa.upps.sby",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 13,
+      "chunkIndex": 30
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-31",
+      "text": "ilihat pada dokumen Tutorial Pengajuan Surat Pengantar KP\nke TOSS pada tautan linktr.ee/laa.upps.sby\n\ne. Pengajuan Surat Pengantar dan Proposal ke Instansi\nMahasiswa menyerahkan surat pengantar dan proposal Kerja Praktik kepada\nInstansi/Perusahaan yang dituju.\n\nf. Penerimaan dari Instansi\nSetelah mendapatkan surat penerimaan Kerja Praktik dari Instansi/Perusahaan, Mahasiswa\ndiharapkan untuk mengunggah Surat Penerimaan Kerja Praktik pada Formulir Pengumpulan\nLaporan Akhir Kerja Praktik pada tautan linktr.ee/laa.upps.sby",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 13,
+      "chunkIndex": 31
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-32",
+      "text": "rja Praktik pada Formulir Pengumpulan\nLaporan Akhir Kerja Praktik pada tautan linktr.ee/laa.upps.sby\n\n2. Pelaksanaan Kerja Praktik\na. Mahasiswa menyelesaikan tugas utama dari Pembimbing Lapangan (eksternal) di tempat\nKerja Praktik.\nb. Mahasiswa mengumpulkan data maupun informasi yang diperlukan untuk membuat\nlaporan dan dilampirkan dalam Laporan Kerja Praktik.\nc. Mahasiswa melaksanakan proses Kerja Praktik di perusahaan/instansi selama minimal 6\nminggu atau menyesuaikan dengan waktu yang sudah ditentukan oleh perusahaan/instansi\ntersebut.\nd. Mahasiswa wajib melakukan bimbingan dengan pembimbing akademik terkait\npelaksanaan Kerja Praktik jika ada kendala yang perlu didiskusikan.\ne. Mahasiswa melakukan dokumentasi pada saat pelaksanaan Kerja Praktik.\nf. Mahasiswa wajib mengisi logbook (laporan kerja harian dan mingguan) yang\nditandatangani dan disahkan (stempel) oleh Pembimbing Lapangan di perusahaan/instansi\npelaksanaan Kerja Praktik.\ng. Mahasiswa diwajibkan untuk melakukan konsultasi dengan Pembimbing Lapangan\n(eksternal) dan Pembimbing Akademik (internal) terhadap aktivitas Kerja Praktik, masing-\nmasing minimal 4 kali (dibuktikan dengan logbook) sebagai syarat melakukan presentasi\nKerja Praktik.\nh. Setelah periode Kerja Praktik berakhir, Mahasiswa wajib menyampaikan hasil kegiatan\nKerja Praktik kepada Instansi/Perusahaan sebagai dasar pemberian nilai akhir oleh\nPembimbing Lapangan (eksternal).\ni. Mahasiswa wajib menyerahkan hasil penilaian dari perusahaan/instansi kepada Komite\nKerja Praktik masing-masing Program Studi setelah kembali ke kampus.\nj. Setelah periode Kerja Praktik berakhir, Mahasiswa wajib mengumpulkan laporan Kerja\nPraktik dan melakukan presentasi.\nk. Penilaian Kerja Praktik disesuaikan dengan ketentuan yang berlaku di setiap Program\nStudi. Template formulir penilaian dari Dosen Pembimbing Akademik dan Pembimbing\nLapangan telah tersedia pada lampiran Buku Pedoman Kerja Praktik. Formulir yang\nberlaku di setiap Program Studi ditunjukkan pada Tabel 2 berikut.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 15,
+      "chunkIndex": 32
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-33",
+      "text": "doman Kerja Praktik. Formulir yang\nberlaku di setiap Program Studi ditunjukkan pada Tabel 2 berikut.\n\nTabel 2 Daftar Template Penilaian Pembimbing Akademik dan Pembimbing Lapangan\nProgram Studi\nNomor Lampiran\nTemplate Penilaian\n(Pembimbing Akademik)\nNomor Lampiran\nTemplate Penilaian\n(Pembimbing Lapangan)\nNomor Lampiran\nTemplate Penilaian\n(Penguji)\nInformatika\nLampiran 4 Lampiran 5 -\nTeknologi\nInformasi\nSains Data\nRekayasa Perangkat\nLunak\nTeknik Industri\nLampiran 6 Lampiran 7 - Sistem Informasi\nTeknik Logistik\nTeknik Elektro\nLampiran 8 Lampiran 9 Lampiran 10\nTeknik Komputer\nTeknik\nTelekomunikasi\nBisnis Digital Lampiran 11 Lampiran 12 -",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 15,
+      "chunkIndex": 33
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-34",
+      "text": "ampiran 9 Lampiran 10\nTeknik Komputer\nTeknik\nTelekomunikasi\nBisnis Digital Lampiran 11 Lampiran 12 -\n\n3. Pelaporan Kerja Praktik\nPresentasi hasil Kerja Praktik merupakan mekanisme penilaian yang dilakukan\nPembimbing Akademik terhadap pelaksanaan Kerja Praktik yang dilakukan oleh Mahasiswa.\nPresentasi akan dilakukan ke Dosen Pembimbing Akademik yang bersangkutan. Laporan yang\nakan dipresentasikan diunggah melalui Formulir Pengumpulan Draft Laporan Kerja Praktik\npada tautan linktr.ee/laa.upps.sby. Laporan Kerja Praktik disusun oleh Mahasiswa secara\nindividu, bukan secara tim/kelompok. Batas pengumpulan Draft Laporan Kerja Praktik sebagai\nsyarat presentasi adalah paling lambat 3 (tiga) minggu setelah pelaksanaan Kerja Praktik\nberakhir.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 15,
+      "chunkIndex": 34
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-35",
+      "text": "i\nsyarat presentasi adalah paling lambat 3 (tiga) minggu setelah pelaksanaan Kerja Praktik\nberakhir.\n\na. Sistematika Penyusunan Laporan Kerja Praktik\nSusunan laporan akhir ditunjukkan pada Tabel 3. sebagai berikut.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 15,
+      "chunkIndex": 35
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-36",
+      "text": "ka Penyusunan Laporan Kerja Praktik\nSusunan laporan akhir ditunjukkan pada Tabel 3. sebagai berikut.\n\nTabel 3. Daftar Susunan Laporan Akhir\nBagian Awal Halaman Judul (terlampir)\nLembar Pengesahan (terlampir)\nKata Pengantar\nDaftar Isi\nDaftar Tabel (opsional)\nDaftar Gambar (opsional)\nAbstrak\nBab 1 Pendahuluan 1.1 Latar Belakang\n1.2 Rumusan Masalah\n1.3 Tujuan\n1.4 Manfaat\n1.5 Waktu\n1.6 Tempat Kerja Praktik.\nBab 2 Tinjauan Teori Teori yang Terkait dengan Permasalahan\nBab 3 Pembahasan Hasil 3.1 Ruang Lingkup Kegiatan\n3.2 Bentuk Kegiatan",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 16,
+      "chunkIndex": 36
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-37",
+      "text": "ng Terkait dengan Permasalahan\nBab 3 Pembahasan Hasil 3.1 Ruang Lingkup Kegiatan\n3.2 Bentuk Kegiatan\n\n3.3 Hasil Kerja Praktik\n3.4 Analisis Hasil Kerja Praktik\nBab 4 Penutup 4.1 Kesimpulan\n4.2 Saran\nBagian Akhir\nDaftar Pustaka\nLampiran",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 16,
+      "chunkIndex": 37
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-38",
+      "text": "isis Hasil Kerja Praktik\nBab 4 Penutup 4.1 Kesimpulan\n4.2 Saran\nBagian Akhir\nDaftar Pustaka\nLampiran\n\nb. Aturan Pengetikan\n• Penulisan paragraf pada laporan menggunakan Styles “Normal”, yaitu font Times New\nRoman ukuran 12pt.\n• Baris-baris kalimat berjarak satu setengah spasi (line spacing 1,5), sedangkan judul\n(keterangan) tabel/gambar serta daftar pustaka menggunakan berjarak satu spasi (line\nspacing 1).\n• Naskah dicetak pada kertas HVS berukuran A4 (210 mm x 297 mm) dan berat 80 g/m2\n(HVS 80 GSM). Batas cetak (margin) adalah 4 cm dari tepi kiri kertas, 3 cm dari tepi\nkanan kertas, 3 cm dari tepi atas, dan 3 cm dari tepi bawah kertas.\n• Setiap bab harus bernomor urut dengan angka dan judul bab ditulis di tengah secara\nsimetris dengan huruf besar tanpa garis dan titik.\n• Setiap Bab dapat dibagi menjadi beberapa sub-bab dengan format penomoran\nmenggunakan angka Arab (1, 2, 3, dst.). Nomor di depan menunjukkan nomor bab,\nsedangkan nomor di belakang menunjukkan nomor sub-bab (Contoh: nomor 2.3 yang\nmenunjukkan Bab 2 dan subbab ketiga dalam Bab 2).\n• Penulisan judul sub-bab diberi sela 1 spasi dan menggunakan huruf besar hanya untuk\nhuruf pertama pada setiap kata, selain kata sambung.\n• Bagian awal laporan (halaman judul hingga abstrak) diberi nomor halaman\nmenggunakan angka romawi kecil (i, ii, iii, dst.), sedangkan penomoran halaman pada\nBab 1 hingga halaman lampiran menggunakan angka Arab (1, 2, 3, dst.).\n• Nomor halaman ditempatkan di sebelah kanan bawah.\n• Penulisan judul tabel diletakkan di atas tabel dengan menggunakan huruf kapital pada\nawal kalimat.\n• Penomoran tabel diawali dengan nomor bab dan diikuti nomor urut tabel pada bab\ntersebut (Contoh: Tabel 2.1 yang menunjukkan tabel terletak pada Bab 2 dengan urutan\npertama).\n• Penulisan judul gambar diletakkan di atas gambar dengan menggunakan huruf kapital\npada awal kalimat.\n• Penomoran gambar diawali dengan nomor bab dan diikuti nomor urut gambar pada\nbab tersebut (Contoh: Gambar 2.1 yang menunjukkan gambar terletak pada Bab 2\ndengan urutan pertama).",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 17,
+      "chunkIndex": 38
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-39",
+      "text": "bab tersebut (Contoh: Gambar 2.1 yang menunjukkan gambar terletak pada Bab 2\ndengan urutan pertama).\n\n4. Presentasi\nMahasiswa mempresentasikan hasil/produk yang telah dibuat beserta laporan akhir Kerja\nPraktik. Presentasi dilakukan oleh Mahasiswa secara individu (one-on-one) kepada Penguji\nsesuai dengan jadwal yang telah ditentukan. Penguji adalah Dosen Pembimbing Akademik dari\n\nsetiap kelompok Kerja Praktik. Ketentuan Dosen Pembimbing Akademik dapat dilihat pada\nSub Bab Tim Kelola Kerja Praktik (Halaman 8 buku panduan Kerja Praktik).",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 17,
+      "chunkIndex": 39
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-40",
+      "text": "Akademik dapat dilihat pada\nSub Bab Tim Kelola Kerja Praktik (Halaman 8 buku panduan Kerja Praktik).\n\n5. Pengumpulan Laporan Akhir\nMahasiswa yang telah menyelesaikan presentasi dan memperbaiki laporan Kerja Praktik\ndiwajibkan untuk mengumpulkan laporan ke perpustakaan dengan mengunggah melalui\nOpenlib. Tutorial pengumpulan dapat dilihat pada dokumen Tutorial Pengumpulan Laporan ke\nOpen Library pada tautan linktr.ee/laa.upps.sby. Jika telah mengunggah laporan ke openlib,\nmaka Mahasiswa diwajibkan untuk mengisi Formulir Pengumpulan Laporan Akhir Kerja\nPraktik pada tautan linktr.ee/laa.upps.sby. Pengumpulan laporan Kerja Praktik dilakukan oleh\nMahasiswa secara individu, bukan secara tim/kelompok. Batas pengumpulan Laporan Akhir\nKerja Praktik adalah paling lambat 2 (dua) minggu terhitung sejak tanggal presentasi laporan\nKerja Praktik dilaksanakan.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 18,
+      "chunkIndex": 40
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-41",
+      "text": "paling lambat 2 (dua) minggu terhitung sejak tanggal presentasi laporan\nKerja Praktik dilaksanakan.\n\nNote: Mahasiswa menghubungi Dosen Pembimbing Akademik untuk keperluan approval pada\naplikasi Openlib dengan menunjukkan capture bukti unggah pada Openlib.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 18,
+      "chunkIndex": 41
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-42",
+      "text": "untuk keperluan approval pada\naplikasi Openlib dengan menunjukkan capture bukti unggah pada Openlib.\n\n6. Pengumpulan Nilai dan Berita Acara oleh Pembimbing Akademik\nSetelah Mahasiswa mengumpulkan laporan pada Openlib, Dosen Pembimbing Akademik\nmengisi formulir penilaian Kerja Praktik sesuai format masing-masing Program Studi. Setelah\nitu, Dosen Pembimbing Akademik menyerahkan Berita Acara Presentasi Laporan Akhir dan\nForm Penilaian Pembimbing Akademik kepada Komite Kerja Praktik.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 18,
+      "chunkIndex": 42
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-43",
+      "text": "a Acara Presentasi Laporan Akhir dan\nForm Penilaian Pembimbing Akademik kepada Komite Kerja Praktik.\n\n7. Penalti Nilai\nPenalti nilai diberikan kepada Mahasiswa yang melanggar tenggat waktu kegiatan pelaksanaan\nKerja Praktik yang telah ditetapkan. Adapun hal-hal yang termasuk dalam kategori penalti\nadalah sebagai berikut:\na. Batas pengumpulan Draft Laporan Kerja Praktik sebagai syarat presentasi adalah paling\nlambat 3 (tiga) minggu terhitung sejak tanggal berakhirnya kegiatan Kerja Praktik di\nperusahaan/instansi.\nb. Batas pengumpulan Laporan Akhir Kerja Praktik adalah paling lambat 2 (dua) minggu\nterhitung sejak tanggal presentasi laporan Kerja Praktik dilaksanakan.\nc. Apabila laporan akhir tidak diserahkan pada tenggat waktu di atas, maka Mahasiswa akan\ndikenakan penurunan indeks nilai dari hasil perhitungan nilai akhir.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 19,
+      "chunkIndex": 43
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-44",
+      "text": "tu di atas, maka Mahasiswa akan\ndikenakan penurunan indeks nilai dari hasil perhitungan nilai akhir.\n\nLampiran 1\nLogbook Bimbingan\nPembimbing Akademik KP\n\nNama Mahasiswa :\n\nNIM :\n\nJudul Kegiatan KP :\n\nTempat Pelaksanaan KP :\n\nDosen Pembimbing Akademik :\n\nNo Tanggal Materi Bimbingan Paraf Pembimbing\n\nLampiran 2\nLogbook Bimbingan\nPembimbing Lapangan KP\n\nNama Mahasiswa :\n\nNIM :\n\nJudul Kegiatan KP :\n\nTempat Pelaksanaan KP :\n\nPembimbing Lapangan :\n\nNo Tanggal Materi Bimbingan Paraf Pembimbing\n\nLampiran 3\nBerita Acara Presentasi Laporan Akhir\nKerja Praktik\nSemester ... Tahun Akademik .... / ....",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 19,
+      "chunkIndex": 44
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-45",
+      "text": "mpiran 3\nBerita Acara Presentasi Laporan Akhir\nKerja Praktik\nSemester ... Tahun Akademik .... / ....\n\nBerdasarkan hasil presentasi laporan akhir KP pada hari .......... tanggal ..... bulan ................. tahun ..........\nyang dilakukan secara daring/luring (*coret yang tidak perlu) maka ditetapkan bahwa Mahasiswa:\nNama Mahasiswa :\nNIM :\nProgram Studi :\n\nTelah menyelesaikan laporan akhir dan melakukan presentasi kegiatan dengan judul:\n\nDemikian berita acara ini kami buat dengan sebenarnya untuk dipergunakan sebagaimana mestinya.\n\nSurabaya, ................ 2024\nPembimbing Akademik",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 20,
+      "chunkIndex": 45
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-46",
+      "text": "narnya untuk dipergunakan sebagaimana mestinya.\n\nSurabaya, ................ 2024\nPembimbing Akademik\n\n(......................................)\nNIP.\nMahasiswa\n\n(......................................)\nNIM.\n\nLampiran 4\nForm Penilaian Pembimbing Akademik\n\nNama : .....................................\n\nNIM : ......................................\n\nSKOR pembimbing lapangan : CLO 1 = .......... CLO 2 = ...........\nTotal = ......\n\n*Nilai Akhir = (40% x Total Nilai Pembimbing Lapangan) + (60% x Total Nilai Pembimbing Akademik)\n= ..................... + ................. = ..................",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 20,
+      "chunkIndex": 46
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-47",
+      "text": "x Total Nilai Pembimbing Akademik)\n= ..................... + ................. = ..................\n\nIndeks Nilai Akhir KP : .............\n\nSurabaya, .................. 20....\nPembimbing Akademik\n\n(....................................)\nNIP :\n\nCLO\nASPEK\nPENILAIAN\nKOMPONEN BOBOT\nSKO R\n(0-100)\nNILAI\n(BOBOT*SKO R)\nCLO 1 Hasil KP (Produk)\nKemampuan menyelesaikan\npekerjaan\n50%\n\nKesesuaian hasil/produk\ndengan tujuan\nUraian Perumusan Masalah\ndan Pembahasan Hasil\nCLO 2\nBuku Laporan\nPelaksanaan KP\ndan Presentasi KP\nAturan penulisan dan Tata bahasa\n50%",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 20,
+      "chunkIndex": 47
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-48",
+      "text": "hasan Hasil\nCLO 2\nBuku Laporan\nPelaksanaan KP\ndan Presentasi KP\nAturan penulisan dan Tata bahasa\n50%\n\nLatar Belakang dan Tujuan\nKemampuan Presentasi\nTOTAL NILAI\n\nLampiran 5\nForm Penilaian Pembimbing Lapangan\n\nSebagai Pembimbing Lapangan Kerja Praktik Mahasiswa:\nNama : .....................................\n\nNIM : ......................................",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 20,
+      "chunkIndex": 48
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-49",
+      "text": "ahasiswa:\nNama : .....................................\n\nNIM : ......................................\n\nSetelah mengikuti pelaksanaan Kerja Praktik Mahasiswa tersebut, memberikan NILAI:\nCLO\nASPEK\nPENILAIAN\nDESKRIPSI ASPEK PENILAIAN BOBOT\nSKOR\n(0-100)\nNILAI\n(BOBOT\n* SKOR)\nCLO 1\nPenyelesaian\nTugas\nPenyelesaian setiap tugas yang diberikan oleh\nPembimbing Lapangan. Penilaian berdasarkan\npersentase penyelesaian tugas.\n50%\nInisiatif dan\nKreatifitas\nKemampuan merespon masalah secara proaktif dan\ngigih, menjajaki kesempatan yang ada, melakukan\nsesuatu tanpa disuruh guna mengatasi hambatan, yang\nditampilkan secara motorik/verbal (yang berkonsekuen\ntindakan)\nCLO 2\nKomunikasi\nKemampuan untuk menyampaikan informasi,\nmendengarkan orang lain, berkomunikasi secara\nefektif, dan memberikan respon positif yang\nmendorong komunikasi terbuka\n50%\nKerjasama\nKemampuan menjalin kerjasama dalam tim, peka\nakan kebutuhan orang lain dan memberikan\nkontribusi dalam aktivitas tim untuk mencapai tujuan\ndan hasil yang positif\nDisiplin\nKerja dan\nAdaptasi\nKemauan untuk mematuhi aturan yang berlaku dan\ndapat menyesuaikan perilaku agar dapat bekerja secara\nefektif dan efisien saat adanya informasi baru,\nperubahan situasi atau kondisi lingkungan kerja yang\nberbeda\nTOTAL NILAI",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 21,
+      "chunkIndex": 49
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-50",
+      "text": "saat adanya informasi baru,\nperubahan situasi atau kondisi lingkungan kerja yang\nberbeda\nTOTAL NILAI\n\nPembimbing Lapangan\nNama : .................................\nNIK / NIP : .................................\nJabatan : .................................\n\n................. , ...... / ...... / ......\n\n(....................................)\n\nLampiran 6\nForm Penilaian Kerja Praktik\n(Pembimbing Akademik)\n\nNama/NIM :\nLokasi Kerja/Unit :\nPeriode KP :\n\nNo. Indikator Penilaian Bobot Nilai Angka* Bobot x Nilai Angka\n\nKomitmen terhadap tugas /\npekerjaan\n10%",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 21,
+      "chunkIndex": 50
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-51",
+      "text": "Indikator Penilaian Bobot Nilai Angka* Bobot x Nilai Angka\n\nKomitmen terhadap tugas /\npekerjaan\n10%\n\nLogbook (approval dari\npembimbing lapangan per hari)\n5%\n\n3 Frekuensi Bimbingan Lapangan 5%\n\n4 Kualitas Presentasi\n15%\n\n5 Kualitas Laporan KP\n15%\n\n6 Identifikasi dan Formulasi Masalah\n10%\n\nNilai Pembimbing Akademik (Bobot 60%)\n\nNilai Pembimbing Lapangan (Bobot 40%)**\n\nNilai Total (Nilai Pembimbing Akademik + Nilai Pembimbing Lapangan)",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 22,
+      "chunkIndex": 51
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-52",
+      "text": "mbimbing Lapangan (Bobot 40%)**\n\nNilai Total (Nilai Pembimbing Akademik + Nilai Pembimbing Lapangan)\n\n*Nilai Angka diisi dengan mengacu pada Panduan Penilaian KP Fakultas Rekayasa Industri\n**Nilai Pembimbing Lapangan diisi sesuai dengan isian pada Form Penilaian KP oleh Pembimbing Lapangan\n\n....................., ..............20...\nPembimbing Akademik,\n\nNIP . .....................",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 22,
+      "chunkIndex": 52
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-53",
+      "text": "pangan\n\n....................., ..............20...\nPembimbing Akademik,\n\nNIP . .....................\n\nCatatan:\n1. Form ini dicetak oleh Mahasiswa dan diserahkan kepada Pembimbing Akademik pada saat presentasi.\n2. Ketika mengumpulkan form ini, Mahasiswa harus melampirkan fotokopi KSM di mana mata kuliah KP diambil, surat\npenerimaan KP dan surat keterangan melaksanakan KP dari perusahaan.\n3. Form Penilaian Pembimbing Lapangan dan Form Penilaian Pembimbing Akademik selanjutnya dikumpulkan oleh\nPembimbing Akademik KP ke Komite KP setiap Program Studi.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 22,
+      "chunkIndex": 53
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-54",
+      "text": "bing Akademik selanjutnya dikumpulkan oleh\nPembimbing Akademik KP ke Komite KP setiap Program Studi.\n\nLampiran 7\nForm Penilaian Kerja Praktik\n(Pembimbing Lapangan)\n\nNama/NIM :\nLokasi Kerja/Unit :\nPeriode KP :\n\nNo. Indikator Penilaian Bobot Nilai Angka*\n\nKehadiran tepat waktu\n5%\n\nKedisiplinan (kesesuaian dengan aturan)\n5%\n\nKomitmen terhadap tugas / pekerjaan\n5%\n\n4 Logbook (approval dari pembimbing lapangan per hari)\n5%\n\n5 Frekuensi Bimbingan Lapangan\n5%\n\n6 Kualitas Presentasi\n5%\n\n7 Kualitas Laporan KP\n5%\n\n8 Identifikasi dan Formulasi Masalah\n5%",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 22,
+      "chunkIndex": 54
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-55",
+      "text": "ngan\n5%\n\n6 Kualitas Presentasi\n5%\n\n7 Kualitas Laporan KP\n5%\n\n8 Identifikasi dan Formulasi Masalah\n5%\n\n*Nilai Angka diisi dengan mengacu pada Panduan Penilaian KP Fakultas Rekayasa Industri\n....................., ..............20...\n\nPembimbing Lapangan,",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 23,
+      "chunkIndex": 55
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-56",
+      "text": "laian KP Fakultas Rekayasa Industri\n....................., ..............20...\n\nPembimbing Lapangan,\n\nNIP . ......................\nCatatan:\n1. Form ini dapat cetak oleh Mahasiswa, kemudian diisi oleh Pembimbing Lapangan. Selanjutnya form nilai Pembimbing\nLapangan ini dimasukkan ke dalam amplop tertutup, lalu diserahkan oleh Mahasiswa kepada Pembimbing Akademik KP.\n2. Nilai ini dianggap sah jika, diberi cap perusahan tempat KP atau dicetak dalam kop surat perusahaan.\n3. Range penilaian mengikuti Pedoman Akademik yang berlaku.\n\nLampiran 8\nForm Penilaian Pembimbing Akademik",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 23,
+      "chunkIndex": 56
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-57",
+      "text": "ge penilaian mengikuti Pedoman Akademik yang berlaku.\n\nLampiran 8\nForm Penilaian Pembimbing Akademik\n\nNama :................................................... Kelas / Kode Dosen Wali : .....................\n/........................\nNIM :................................................... Program Studi : S1-TT / S1-TE / S1-TK / S1-TF\n*)\n\n*) Lingkari yang sesuai",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 23,
+      "chunkIndex": 57
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-58",
+      "text": ".......................... Program Studi : S1-TT / S1-TE / S1-TK / S1-TF\n*)\n\n*) Lingkari yang sesuai\n\nCOURSE\nLEARNING\nOUTCOME (CLO)\nASPEK\nPENILAIAN\nINDIKATOR\nKRITERIA\nNILAI\nKurang Cukup Baik\nCLO4: Mampu\nberpikir kritis dalam\nmelihat permasalahan\ntersebut dan\nmemberikan solusi\ndengan cara\nmembandingkan,\nmencocokkan,\nmenghubungkan\ndengan teori-teori dan\nkonsep- konsep yang\ntelah dipelajari di\nbangku perkuliahan\ndan menyusunnya\nsebagai laporan\nkegiatan dan\nmempresentasikannya.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 23,
+      "chunkIndex": 58
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-59",
+      "text": "h dipelajari di\nbangku perkuliahan\ndan menyusunnya\nsebagai laporan\nkegiatan dan\nmempresentasikannya.\n\nFormat dan tata\ntulis Buku\nLaporan KP\nsesuai dengan\nBuku Panduan\nKP.\no Format penulisan\nbuku laporan KP\nsesuai.\no Penulisan kutipan,\njudul gambar, judul\ntabel dan format\nlainnya sesuai.\no Penggunaan bahasa\nIndonesia yang baik\ndan benar sesuai.\no Pengetikan/ejaan\nminim kesalahan\nsesuai.\n0 – 10 11 – 20 21 – 30 ............\nMateri\npembahasan\ndalam Buku\nLaporan KP\nsesuai dengan\nkegiatan yang\ndilaksanakan di\ntempat KP.\no Materi pembahasan\ndalam Buku Laporan\nKP sesuai dengan\nCatatan Kegiatan KP\n(Logbook 2).\n0 – 20 21 – 30 31 – 40 ............\nCLO1: Mempelajari\nkultur budaya kerja di\ntempat KP dan\nmenerapkan akhlak,\nkejujuran, kepribadian\ndan rasa tanggung\njawab yang baik.\nKepatuhan dan\ndisiplin dalam\nmelaksanakan\nKonsultasi KP.\no Melaksanakan\nkonsultasi dengan\nPembimbing\nAkademik sesuai\njadwal minimal 3 kali.\no Menyelesaikan\nrevisi/perbaikan Buku\nLaporan KP sesuai\ncatatan Pembimbing\nAkademik dengan tepat\nwaktu.\n0 – 10 11 – 20 21 – 30 ............\nTOTAL NILAI ............",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 24,
+      "chunkIndex": 59
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-60",
+      "text": "Pembimbing\nAkademik dengan tepat\nwaktu.\n0 – 10 11 – 20 21 – 30 ............\nTOTAL NILAI ............\n\n.................., ..............................................\nPembimbing Akademik KP\n\n.............................\nNIP.\n**) Nama lengkap beserta gelar, tandatangan\n\nLampiran 9\nForm Penilaian Pembimbing Lapangan\n\nNama :................................................... Kelas / Kode Dosen Wali : .....................\n/........................\nNIM :................................................... Program Studi : S1-TT / S1-TE / S1-TK / S1-\nTF\n*)\n\n*) Lingkari yang sesuai",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 24,
+      "chunkIndex": 60
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-61",
+      "text": "......................... Program Studi : S1-TT / S1-TE / S1-TK / S1-\nTF\n*)\n\n*) Lingkari yang sesuai\n\nCOURSE LEARNING\nOUTCOME (CLO)\nASPEK\nPENILAIAN\nINDIKATOR\nKRITERIA\nNILAI\nKurang\nCuku\np\nBaik\nCLO1: Mempelajari kultur budaya\nkerja di tempat KP dan menerapkan\nakhlak, kejujuran, kepribadian dan\nrasa tanggung jawab yang baik.\nAdaptasi\nterhadap\nlingkungan KP\nPeserta Kerja Praktik\nmampu beradaptasi\ndengan unit kerjanya dan\nmelakukan interaksi\ndengan sangat baik\n0 – 4 5 – 7 8 – 10 .....\nKehadiran Peserta Kerja Praktik hadir\npenuh di seluruh hari yang\ndisyaratkan dan disiplin\ndatang tepat waktu\n0 – 4 5 – 7 8 – 10",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 25,
+      "chunkIndex": 61
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-62",
+      "text": "ktik hadir\npenuh di seluruh hari yang\ndisyaratkan dan disiplin\ndatang tepat waktu\n0 – 4 5 – 7 8 – 10\n\n........\nCLO2: Memahami jenis\npekerjaan dan permasalahan di\ntempat KP yang berkaitan dengan\nkompetensi Program Studi masing-\nmasing.\nPelaporan KP Peserta Kerja Praktik\nmembuat laporan\npelaksanaan Kerja Praktik\nsecara rinci dan terdapat\nanalisis yang sesuai\ndengan kenyataan di\nlapangan\n0 – 10 11 – 15 16 – 20 .....\nCLO3: Menerapkan metoda\npenyelesaian terhadap\npermasalahan di tempat KP yang\nsesuai dengan bidang\nkompetensi Program Studi\nmasing-masing.\nKemampuan\nmenyelesaikan\ntugas- tugas\nPeserta Kerja Praktik\nmampu menyelesaikan\ntugas sesuai ekspektasi\n0 – 15 16 – 23 24 – 30 .....\nCLO4: Mampu berpikir kritis\ndalam melihat permasalahan\ntersebut dan memberikan solusi\ndengan cara membandingkan,\nmencocokkan, menghubungkan\ndengan teori-teori dan konsep-\nkonsep yang telah dipelajari di\nbangku perkuliahan dan\nmenyusunnya sebagai laporan\nkegiatan dan\nmempresentasikannya\nKontribusi nyata\nke perusahaan\nKP\nPeserta Kerja Praktik turut\nmemberikan solusi pada\npermasalahan yang ada di\nlapangan\n0 – 15 16 – 23 24 – 30 ........\nTOTAL NILAI ........",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 25,
+      "chunkIndex": 62
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-63",
+      "text": "n solusi pada\npermasalahan yang ada di\nlapangan\n0 – 15 16 – 23 24 – 30 ........\nTOTAL NILAI ........\n\n.................., ..............................................\nPembimbing Lapangan\n**)\n\n.............................\nNIP.\n**) Nama lengkap beserta gelar, tandatangan\n\nLampiran 10\nForm Penilaian Penilaian Penguji\n\nNama :................................................... Kelas / Kode Dosen Wali : .....................\n/........................\nNIM :................................................... Program Studi : S1-TT / S1-TE / S1-TK / S1-TF\n*)\n\n*) Lingkari yang sesuai",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 26,
+      "chunkIndex": 63
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-64",
+      "text": ".......................... Program Studi : S1-TT / S1-TE / S1-TK / S1-TF\n*)\n\n*) Lingkari yang sesuai\n\nCOURSE\nLEARNING\nOUTCOME (CLO)\nASPEK\nPENILAIAN\nINDIKATOR\nKRITERIA\nNILAI\nKurang Cukup Baik\nCLO2: Memahami\njenis pekerjaan dan\npermasalahan di\ntempat KP yang\nberkaitan dengan\nkompetensi Program\nStudi masing-\nmasing.\nPenguasaan\nterhadap\npermasalahan\nKerja Praktik\nMahasiswa mampu\nmenyajikan masalah\nyang dihadapi di\ntempat KP secara\njelas dan memberikan\nsolusi terhadap\nmasalah\ntersebut.\n0 – 20 21 – 35 36 – 50 ............\nCLO4: Mampu\nberpikir kritis dalam\nmelihat permasalahan\ntersebut dan\nmemberikan solusi\ndengan cara\nmembandingkan,\nmencocokkan,\nmenghubungkan\ndengan teori-teori dan\nkonsep- konsep yang\ntelah dipelajari di\nbangku perkuliahan\ndan menyusunnya\nsebagai laporan\nkegiatan dan\nmempresentasikannya.\nIsi dan Sistematika\nPelaporan Kerja\nPraktik\nMahasiswa mampu\nmenyajikan laporan\nKP secara\nkomprehensif sesuai\ndengan latar belakang\nkeilmuannya. Laporan\nKP mengandung teori-\nteori ilmiah yang\ndiperoleh di bangku\nkuliah dan\ndiimplementasikan\ndalam kegiatan KP.\n0 – 15 16 – 23 24 – 30 ............\nTeknik Presentasi\nMahasiswa dapat\nmempresentasikan\nlaporan KP secara\njelas dan lengkap\ndalam batas waktu\nyang diberikan,\ndengan menggunakan\nteknik presentasi yang\nbaik dan benar.\n0 – 10 11- 15 16 – 20 ............\nTOTAL NILAI ............",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 27,
+      "chunkIndex": 64
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-65",
+      "text": "n\nteknik presentasi yang\nbaik dan benar.\n0 – 10 11- 15 16 – 20 ............\nTOTAL NILAI ............\n\n.................., ..............................................\nPenguji UPKP\n\nKode Dosen: ............\n\nLampiran 11\nForm Penilaian Pembimbing Akademik\n(Academic Supervisor Assessment Form)\n\nNama (Student Name) :\nNIM (Student ID) :\nTempat Kerja Praktik\n(Practical Work Place)\n:\nPeriode Kerja Praktik\n(Practical Work Period)\n: s.d",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 27,
+      "chunkIndex": 65
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-66",
+      "text": ":\nTempat Kerja Praktik\n(Practical Work Place)\n:\nPeriode Kerja Praktik\n(Practical Work Period)\n: s.d\n\nASPEK PENILAIAN\n(Assessment Component)\nBobot\n(Weight)\nNILAI\n(Score)\nNilai x Bobot\n(Weight x Score)\nTeknik dan Sistematika Penulisan\n(Writing Technique and Systematics)\n20%\nTeknik dan Kemampuan Pemaparan\n(Technique and Description Abillity)\n20%\nKedalaman Pembahasan\n(Review Deepness)\n20%\nKemampuan Analisis\n(Analytical Skill)\n20%\nKemampuan Argumentasi\n(Arguing Ability)\n20%\n100% Total",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 27,
+      "chunkIndex": 66
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-67",
+      "text": "20%\nKemampuan Analisis\n(Analytical Skill)\n20%\nKemampuan Argumentasi\n(Arguing Ability)\n20%\n100% Total\n\nNILAI AKHIR = (Nilai Pembimbing Lapangan + Nilai Dosen Pembimbing) / 2\nTotal Score = (Company Supervisor Score + Academic Supervisore Score) / 2\n\n= (..................... + ...................) / 2 = ...................\n\n..............., .............................. 20.....\nPembimbing Akademik\n(Academic Supervisor)\n\n(......................................................)\nNIP (ID) ...............................",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 27,
+      "chunkIndex": 67
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-68",
+      "text": ")\n\n(......................................................)\nNIP (ID) ...............................\n\nLampiran 12\nForm Penilaian Pembimbing Lapangan\n(Company Supervisor Assessment Form)",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 27,
+      "chunkIndex": 68
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-69",
+      "text": "...............\n\nLampiran 12\nForm Penilaian Pembimbing Lapangan\n(Company Supervisor Assessment Form)\n\nYang bertanda tangan di bawah ini (The undersigned below):\nNama (Name) : .........................................................................................................\nNIP (ID) : .........................................................................................................\nJabatan (Position) : .........................................................................................................",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 28,
+      "chunkIndex": 69
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-70",
+      "text": "....................................................................................................\n\nSebagai Pembimbing Lapangan Kerja Praktik dari Mahasiswa (As Company Supervisor from\nstudent):\nNama (Name) : .........................................................................................................\nNIM (Student ID) : .........................................................................................................\nSetelah mengikuti pelaksanaan Kerja Praktik Mahasiswa tersebut, saya memberikan nilai sebagai\nberikut (After participating in the implementation of Practical Work, I give score as follow):",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 28,
+      "chunkIndex": 70
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-71",
+      "text": "bagai\nberikut (After participating in the implementation of Practical Work, I give score as follow):\n\nASPEK PENILAIAN\n(Assessment Component)\nBobot\n(Weight)\nNILAI\n(Score)\nNilai x Bobot\n(Weight x Score)\nKehadiran (Attendance) 20%\nSikap (Attitude) 20%\nKetekunan (Persistence) 20%\nKedisiplinan (Discipline) 20%\nPemahaman akan Tugas\n(Understanding of Assignment)\n10%\nKemampuan Memberikan\nSaran (Ability to Suggestion)\n10%\n100% Total\n\n........................, ..................... 20.....\nPembimbing Lapangan\n(Company Supervisor)**",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 28,
+      "chunkIndex": 71
+    },
+    {
+      "source": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf/chunk-72",
+      "text": "........................, ..................... 20.....\nPembimbing Lapangan\n(Company Supervisor)**\n\n(....................................)\nNIP ..............................\n** Pengesahan lapangan harus ditandatangani dan dibubuhi\ncap.",
+      "filename": "buku-pedoman-kerja-praktik--upps-tus----versi-1.0.pdf",
+      "page": 28,
+      "chunkIndex": 72
+    }
+  ]
+}

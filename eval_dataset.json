@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Berapa SKS minimal untuk bisa mendaftar Kerja Praktik?",
+    "expected_keywords": ["sks", "minimal"],
+    "expected_document": "Buku-Pedoman-Kerja-Praktik"
+  },
+  {
+    "question": "Kapan jadwal pendaftaran untuk sidang tugas akhir?",
+    "expected_keywords": ["jadwal", "pendaftaran", "sidang"],
+    "expected_document": "Surat-Edaran-Jadwal-Sidang"
+  },
+  {
+    "question": "Apa saja kegiatan utama yang ada di kalender akademik?",
+    "expected_keywords": ["akademik", "kegiatan", "semester"],
+    "expected_document": "Kalender-Akademik"
+  }
+]

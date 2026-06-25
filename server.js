@@ -39,7 +39,7 @@ app.use(session({
 
 // Multer untuk upload PDF
 const uploadsDir = path.join(__dirname, 'data', 'uploads');
-if (!fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true });
+if (!IS_VERCEL && !fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true });
 
 const upload = multer({
     dest: path.join(__dirname, 'data', 'temp'),
@@ -55,7 +55,7 @@ const upload = multer({
 
 // Buat folder temp jika belum ada
 const tempDir = path.join(__dirname, 'data', 'temp');
-if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
+if (!IS_VERCEL && !fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
 
 // ─── Config Files ───────────────────────────────────────────────
 const knowledgeFile = path.join(__dirname, 'knowledge.json');
@@ -93,8 +93,9 @@ function loadBehavior() {
 }
 
 function saveBehavior(obj) {
+    if (IS_VERCEL) return false;
     try {
-        fs.mkdirSync(path.dirname(behaviorFile), { recursive: true });
+        if (!IS_VERCEL) fs.mkdirSync(path.dirname(behaviorFile), { recursive: true });
         fs.writeFileSync(behaviorFile, JSON.stringify(obj, null, 2));
         return true;
     } catch (error) {

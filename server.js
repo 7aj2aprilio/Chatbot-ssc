@@ -41,8 +41,9 @@ app.use(session({
 const uploadsDir = path.join(process.cwd(), 'data', 'uploads');
 if (!IS_VERCEL && !fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true });
 
+const multerDest = IS_VERCEL ? '/tmp' : path.join(process.cwd(), 'data', 'temp');
 const upload = multer({
-    dest: path.join(process.cwd(), 'data', 'temp'),
+    dest: multerDest,
     limits: { fileSize: 50 * 1024 * 1024 }, // Max 50MB
     fileFilter: (req, file, cb) => {
         if (file.mimetype === 'application/pdf') {

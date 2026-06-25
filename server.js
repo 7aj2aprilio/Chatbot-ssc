@@ -38,11 +38,11 @@ app.use(session({
 }));
 
 // Multer untuk upload PDF
-const uploadsDir = path.join(__dirname, 'data', 'uploads');
+const uploadsDir = path.join(process.cwd(), 'data', 'uploads');
 if (!IS_VERCEL && !fs.existsSync(uploadsDir)) fs.mkdirSync(uploadsDir, { recursive: true });
 
 const upload = multer({
-    dest: path.join(__dirname, 'data', 'temp'),
+    dest: path.join(process.cwd(), 'data', 'temp'),
     limits: { fileSize: 50 * 1024 * 1024 }, // Max 50MB
     fileFilter: (req, file, cb) => {
         if (file.mimetype === 'application/pdf') {
@@ -54,12 +54,12 @@ const upload = multer({
 });
 
 // Buat folder temp jika belum ada
-const tempDir = path.join(__dirname, 'data', 'temp');
+const tempDir = path.join(process.cwd(), 'data', 'temp');
 if (!IS_VERCEL && !fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
 
 // ─── Config Files ───────────────────────────────────────────────
-const knowledgeFile = path.join(__dirname, 'knowledge.json');
-const behaviorFile = path.join(__dirname, 'config', 'behavior.json');
+const knowledgeFile = path.join(process.cwd(), 'knowledge.json');
+const behaviorFile = path.join(process.cwd(), 'config', 'behavior.json');
 
 function loadKnowledge() {
     try {
@@ -130,19 +130,24 @@ async function buildRAGIndex() {
 
 // ─── Chat API (Public) ──────────────────────────────────────────
 app.post('/api/chat', async (req, res) => {
+    console.log('[DEBUG] Incoming /api/chat request');
     try {
         const { message } = req.body;
-        if (!message || !message.trim()) {
-            return res.status(400).json({ reply: 'Pesan tidak boleh kosong', sources: [], source_type: 'error' });
+        console.log('[DEBUG] Message received:', message ? message.substring(0, 20) + '...' : 'null');
+        
+        if (!message) {
+            return res.status(400).json({ error: 'Pesan tidak boleh kosong' });
         }
-
+        
         const userMessage = message.trim();
 
         // Step 1: Cek FAQ keyword
+        console.log('[DEBUG] Checking FAQ...');
         const knowledge = loadKnowledge();
         const keyword = userMessage.toLowerCase().trim();
 
         if (knowledge.responses && knowledge.responses[keyword]) {
+            console.log('[DEBUG] FAQ match found');
             return res.json({
                 reply: knowledge.responses[keyword],
                 sources: [],
@@ -150,10 +155,13 @@ app.post('/api/chat', async (req, res) => {
             });
         }
 
+        console.log('[DEBUG] Getting all documents...');
         // Step 2: RAG Search
         const allDocuments = datasetManager.getAllDocuments();
+        console.log(`[DEBUG] allDocuments length: ${allDocuments.length}`);
         
         if (allDocuments.length === 0) {
+            console.log('[DEBUG] No documents found');
             const behavior = loadBehavior();
             return res.json({
                 reply: behavior?.fallback_response || 'Mohon maaf, belum ada dataset yang dimuat. Silakan hubungi admin.',
@@ -164,15 +172,14 @@ app.post('/api/chat', async (req, res) => {
 
         // Pastikan index sudah dibangun
         if (!ragEngine.index || !ragEngine.index.vectors || ragEngine.index.vectors.length === 0) {
+            console.log('⚠️ PERINGATAN: Index kosong di /api/chat. Membangun ulang index (berpotensi timeout di Vercel!)...');
             await ragEngine.buildIndex(allDocuments, gemini);
             ragEngine.saveIndex();
         }
 
+        console.log('[DEBUG] Retrieving context...');
         const topK = Number(process.env.RAG_TOP_K || 5);
         const contextItems = await ragEngine.retrieveContext(userMessage, allDocuments, topK, gemini);
-
-        console.log(`RAG: "${userMessage.substring(0, 50)}..." → ${contextItems.length} konteks ditemukan`);
-
         // Step 3: Generate via Gemini
         const contextBlock = ragEngine.buildContextBlock(contextItems);
         const behavior = loadBehavior();

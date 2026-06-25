@@ -13,6 +13,7 @@ const DatasetManager = require('./lib/dataset');
 // ─── Inisialisasi ───────────────────────────────────────────────
 const app = express();
 const PORT = process.env.PORT || 3001;
+const IS_VERCEL = !!process.env.VERCEL;
 
 const gemini = new GeminiClient();
 const ragEngine = new RAGEngine();
@@ -29,9 +30,10 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     cookie: {
-        secure: false,
+        secure: IS_VERCEL,
         httpOnly: true,
-        maxAge: 24 * 60 * 60 * 1000 // 24 jam
+        maxAge: 24 * 60 * 60 * 1000, // 24 jam
+        sameSite: IS_VERCEL ? 'none' : 'lax'
     }
 }));
 
@@ -310,6 +312,9 @@ app.get('/api/datasets', requireAuth, (req, res) => {
 });
 
 app.post('/api/datasets/upload', requireAuth, upload.single('pdf'), async (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Upload tidak tersedia di Vercel. Gunakan lokal lalu redeploy.' });
+    }
     try {
         if (!req.file) {
             return res.status(400).json({ success: false, message: 'File PDF tidak ditemukan' });
@@ -330,6 +335,9 @@ app.post('/api/datasets/upload', requireAuth, upload.single('pdf'), async (req, 
 });
 
 app.delete('/api/datasets/:id', requireAuth, (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Hapus dataset tidak tersedia di Vercel.' });
+    }
     const result = datasetManager.deleteDataset(req.params.id);
     if (result.success) {
         buildRAGIndex().catch(err => console.error('Error background build index:', err));
@@ -347,6 +355,9 @@ app.get('/api/datasets/:id/documents', requireAuth, (req, res) => {
 });
 
 app.post('/api/datasets/:id/reprocess', requireAuth, async (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Reprocess tidak tersedia di Vercel.' });
+    }
     const result = await datasetManager.reprocessDataset(req.params.id);
     if (result.success) {
         buildRAGIndex().catch(err => console.error('Error background build index:', err));
@@ -360,6 +371,9 @@ app.get('/api/knowledge', requireAuth, (req, res) => {
 });
 
 app.post('/api/knowledge', requireAuth, (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Edit FAQ tidak tersedia di Vercel.' });
+    }
     try {
         const { keyword, response } = req.body;
         if (!keyword || !response) {
@@ -378,6 +392,9 @@ app.post('/api/knowledge', requireAuth, (req, res) => {
 });
 
 app.delete('/api/knowledge/:keyword', requireAuth, (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Hapus FAQ tidak tersedia di Vercel.' });
+    }
     try {
         const keyword = decodeURIComponent(req.params.keyword).toLowerCase();
         const knowledge = loadKnowledge();
@@ -404,6 +421,9 @@ app.get('/api/behavior', requireAuth, (req, res) => {
 });
 
 app.post('/api/behavior', requireAuth, (req, res) => {
+    if (IS_VERCEL) {
+        return res.status(403).json({ success: false, message: 'Edit behavior tidak tersedia di Vercel.' });
+    }
     const obj = req.body;
     if (!obj || typeof obj !== 'object') {
         return res.status(400).json({ success: false, message: 'Data behavior tidak valid' });
@@ -429,20 +449,25 @@ app.get('/api/stats', requireAuth, (req, res) => {
     });
 });
 
-// ─── Start Server ───────────────────────────────────────────────
-app.listen(PORT, () => {
-    console.log('');
-    console.log('═══════════════════════════════════════════════════');
-    console.log('  🤖 SSC Telkom University Surabaya — RAG Chatbot');
-    console.log('═══════════════════════════════════════════════════');
-    console.log(`  🌐 Server     : http://localhost:${PORT}`);
-    console.log(`  💬 Chat       : http://localhost:${PORT}`);
-    console.log(`  ⚙️  Admin      : http://localhost:${PORT}/admin.html`);
-    console.log(`  📊 Datasets   : ${datasetManager.listDatasets().length} loaded`);
-    console.log(`  🤖 AI Model   : ${process.env.GEMINI_MODEL || 'gemini-2.0-flash'}`);
-    console.log('═══════════════════════════════════════════════════');
-    console.log('');
+// ─── Export app untuk Vercel ────────────────────────────────────
+module.exports = app;
 
-    // Build RAG index saat startup
-    buildRAGIndex().catch(err => console.error('Startup build index error:', err));
-});
+// ─── Start Server (hanya jika bukan Vercel) ─────────────────────
+if (!IS_VERCEL) {
+    app.listen(PORT, () => {
+        console.log('');
+        console.log('═══════════════════════════════════════════════════');
+        console.log('  🤖 SSC Telkom University Surabaya — RAG Chatbot');
+        console.log('═══════════════════════════════════════════════════');
+        console.log(`  🌐 Server     : http://localhost:${PORT}`);
+        console.log(`  💬 Chat       : http://localhost:${PORT}`);
+        console.log(`  ⚙️  Admin      : http://localhost:${PORT}/admin.html`);
+        console.log(`  📊 Datasets   : ${datasetManager.listDatasets().length} loaded`);
+        console.log(`  🤖 AI Model   : ${process.env.GEMINI_MODEL || 'gemini-2.0-flash'}`);
+        console.log('═══════════════════════════════════════════════════');
+        console.log('');
+
+        // Build RAG index saat startup
+        buildRAGIndex().catch(err => console.error('Startup build index error:', err));
+    });
+}
